@@ -12,9 +12,15 @@
   <!-- overlayScrollbars -->
   <link rel="stylesheet" href="{{ asset('dashboardFiles/css') }}/OverlayScrollbars.min.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 
-  <!-- Theme style -->
+  <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" 
+        integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" 
+        />
+
   <link rel="stylesheet" href="{{ asset('dashboardFiles/css') }}/adminlte.min.css">
 
     @yield("css")
