@@ -243,3 +243,11 @@ if(!function_exists("url_version")) {
         return asset($file.'?version='.$linkRandom);
     }
 }
+
+if(!function_exists("localize")) {
+    function localize($value)
+    {
+
+        return $value;
+    }
+}
